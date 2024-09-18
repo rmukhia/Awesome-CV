@@ -11,16 +11,49 @@
 
 %---------------------------------------------------------
   \cventry
+  {Research Associate} % Job title
+  {IntERLab, Asian Institute Of Technology} % Organization
+  {Bangkok, Thailand} % Location
+  {May. 2022 - Present} % Date(s)
+  {\begin{cvitems} % Description(s) of tasks/responsibilities
+  		  	\item {Developed \href{https://tracking.hazemon.in.th/}{Next.js application} for visualization of mobile Air Quality sensors. }
+  		    \item {Developed \href{https://control.hazemon.in.th/}{Next.js application} for remote fleet management Air Quality sensors through MQTT. }
+  			\item {Develop scalable multiprocess realtime Rust based client with Redis data store to translate fragmented LoRaWAN sensor data to MQTT.}
+  			\item {Develop scalable multiprocess realtime Python UDP to MQTT client to translate data UDP packet data from legacy sensors to MQTT.}
+  		    \item {Develop scalable multiprocess realtime Python MQTT client to handle sensor data and store in SQL DB.}
+    		\item {Add MQTT support to the IoT Air Quaity Sensor for \href{https://interlab.ait.ac.th/sea-hazemon-tein-project/}{SEA-HAZEMON@TEIN} project.}
+    		\item {Develop device driver to integrate various \emph{\textbf{sensing modules}} \textit{(BME280 [temperature, pressure, humidity], MHZ16 [CO2], PMS7003 [PM1.0, PM2.5, PM10], UBLOX NEO [GPS], ZE03 [NO2], ZE07 [CO])}, \emph{\textbf{networking modules}} \textit{(SimCom7600H [Cellular 4G], CMWX1ZZABZ [LoRaWAN], ESP32 built in WiFi.)}, \emph{\textbf{external RTC}} \textit{(ISL1219)} and \emph{\textbf{SD card}} support.}
+    		\item {Port existing communication protocols between sensor and server from older IoT sensor to ESP32 based sensor.}
+    		\item {Develop a React.js SPA embedded in the ESP32 microcontroller to configure the IoT Sensor device by connecting to its WiFi Access Point.}
+    		\item {Design,develop and test Wind Speed, Wind Direction and Rain measurement sensor module using \href{https://www.microchip.com/en-us/product/ATTINY3226}{ATTINY3226} microcontroller. The ATTiny reads analog data and interrupts from the \href{https://www.dfrobot.com/product-1308.html}{measurement hardware} and communicates via I2C with the main Sensor Device.}
+    		\item {Deployed a couple of the ESP32 based sensor in remote (Solar Powered) and semi-urban location with LoRaWAN and WiFi. Some of the ESP32 based sensors are active in \url{https://hazemon.in.th}.}
+  \end{cvitems}}
+
+  \cventry
+  {Research Consultant} % Job title
+  {IntERLab, Asian Institute Of Technology} % Organization
+  {Bangkok, Thailand} % Location
+  {Feb. 2021 - April 2022} % Date(s)
+  {\begin{cvitems} % Description(s) of tasks/responsibilities
+  		\item {Design, develop and test software for \href{https://www.espressif.com/en/products/socs/esp32}{ESP32} based custom sensor board \href{https://lora.hazemon.in.th/can5/firmware/Hazemon-LEGO-Brochure.pdf}{Hazemon-LEGO} using ESP-IDF and FreeRTOS (Version 5 sensor device for SEA\_HAZEMON@TEIN).}
+  		\item {Work collaboratively and provide feedback to hardware team designing custom sensor hardware.}
+  		\item {Consult test team for rapid prototyping using Arduino and ESP32.}
+  		\item {Consult and help with experiments for writing research paper based on LoRaWAN capabilities.}
+  		\item {Maintain software for version 4 of the IoT sensor device with LoRaWAN support for "Real-Time Haze Monitoring and Forest Fire Detection Information Centric Networks (SEA\_HAZEMON@TEIN)".}
+  		\item {Deploy, maintain and manage a private \href{https://ttn.hazemon.in.th/}{"the Things Network" instance} as the network server for LoRaWAN.}
+  \end{cvitems}}
+  
+  \cventry
     {Student Research Assistant} % Job title
     {IntERLab, Asian Institute Of Technology} % Organization
     {Bangkok, Thailand} % Location
-    {March. 2019 - Present} % Date(s)
+    {March. 2019 - Jan. 2021} % Date(s)
     {\begin{cvitems} % Description(s) of tasks/responsibilities
-    \item {Designed and developed LoRa support for "Real-Time Haze Monitoring and Forest Fire Detection Information Centric Networks (SEA\_HAZEMON@TEIN)".}
+    \item {Designed and developed LoRaWAN support for Low Cost Air Quaity Sensor for "Real-Time Haze Monitoring and Forest Fire Detection Information Centric Networks {SEA\_HAZEMON@TEIN})".}
     \item {Ported embedded STM32 code to run with custom-developed LoRa module.}
-    \item {LoRa gateway configurations (The Things Network, Kerlink)}
-    \item {Developing Python Django application server running on docker to receive LoRa sensor data.}
-      \item {Developed a React Native mobile application for "BangPun: Distributed Ledger for Rural Communities".}
+    \item {LoRaWAN gateway configurations (The Things Network, Kerlink)}
+    \item {Developed \href{https://lora.hazemon.in.th/}{"LoRa Relay"}, a Python Django application server running on docker to receive LoRaWAN sensor data.}
+      \item {Developed and kick-started a React Native mobile application for "BangPun: Distributed Ledger for Rural Communities".}
       \end{cvitems}}
 
   \cventry
@@ -30,34 +63,34 @@
     {2017 - 2018} % Date(s)
     {\begin{cvitems} % Description(s) of tasks/responsibilities
         \item {Developed a web-based issue ticketing system through text messages (SMS) using Node.js, Express.js, Backbone.js, and MongoDB.}
-    \item {Developed a Laravel website for a resort in Kalimpong.}
+    \item {Developed a PHP Laravel website for a \href{https://www.yururetreat.com/}{resort in Kalimpong}.}
       \end{cvitems}}
 
 %---------------------------------------------------------
   \cventry
     {Software Engineer} % Job title
-    {Ixia} % Organization
+    {Ixia, Keysight} % Organization
     {Kolkata, India} % Location
     {Jul. 2013 - Jun. 2016} % Date(s)
     {\begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Lead engineer on implementing HTTP/2 native support for "BreakingPoint".}
-        \item {Worked on developing "BreakingPoint VE", the virtual edition of "Breaking Point".}
+        \item {Lead engineer on designing and implementing HTTP/2 native support for \href{https://www.keysight.com/th/en/products/network-security/breakingpoint.html}{"BreakingPoint"}.}
+        \item {Worked on developing \href{https://www.keysight.com/th/en/products/network-security/breakingpoint-ve.html}{"BreakingPoint VE"}, the virtualized edition of "Breaking Point".}
         \item {Worked on developing software virtualization of BitBlaster (L2 packet generator) and Routing Robot (L3 packet generator) modules for "BreakingPoint VE". Their implementation used FGPA in the hardware edition.}
         \item {Worked on various performance improvement strategies for "BreakingPoint VE".}
-        \item {Prototyped "BreakingPoint VE" with DPDK to analyze its feasibility and performance impact.}
+        \item {Prototyped "BreakingPoint VE" with \href{https://www.dpdk.org/}{DPDK} to analyze its feasibility and performance impact.}
         \item {Improved the stability of "BreakingPoint" by fixing many bugs on the network processor.}
         \item {Deployed a docker registry, and docker scripts to host and build development environment docker images for "BreakingPoint".}
-        \item {Supervised an intern in developing an internal resource reservation web-app using Django, AngularJs and Mysql.}
+        \item {Supervised an intern in developing an internal resource reservation web-app using Django, AngularJs and MySQL.}
       \end{cvitems}}
 
 %---------------------------------------------------------
   \cventry
     {Intern} % Job title
-    {Ixia} % Organization
+    {Ixia, Keysight} % Organization
     {Kolkata, India} % Location
     {Dec. 2012 - Jun. 2013} % Date(s)
     {\begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Designed and developed a web-based automated build management tool using Django which simplified package version management. It was used for many years to build the product "IxLoad".}
+        \item {Designed and developed a web-based automated build management tool using Django which simplified package version management. It was used for many years to build the product \href{https://www.keysight.com/th/en/products/network-test/protocol-load-test/ixload.html}{"IxLoad"}.}
         \item {Designed and developed a unit test and mocking framework for C for both user-space and kernel-space. It was used internally by some packages.}
       \end{cvitems}}
 
